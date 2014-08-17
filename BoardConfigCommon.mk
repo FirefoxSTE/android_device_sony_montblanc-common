@@ -112,3 +112,6 @@ TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 
 # System proprieties
 TARGET_SYSTEM_PROP := device/sony/montblanc-common/system.prop
+
+# Firefox flags
+DISABLE_SOURCES_XML := true
