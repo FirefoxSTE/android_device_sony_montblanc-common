@@ -46,8 +46,9 @@ PRODUCT_COPY_FILES += \
         device/sony/montblanc-common/config/01stesetup:system/etc/init.d/01stesetup \
         device/sony/montblanc-common/config/10wireless:system/etc/init.d/10wireless \
         device/sony/montblanc-common/config/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
-	device/sony/montblanc-common/config/p2p_supplicant.conf:system/etc/wifi/p2p_supplicant.conf \
-        device/sony/montblanc-common/config/dhcpcd.conf:system/etc/dhcpcd/dhcpcd.conf
+        device/sony/montblanc-common/config/p2p_supplicant.conf:system/etc/wifi/p2p_supplicant.conf \
+        device/sony/montblanc-common/config/dhcpcd.conf:system/etc/dhcpcd/dhcpcd.conf \
+        device/sony/montblanc-common/config/apns-conf.xml:system/etc/apns-conf.xml
 
 # Edit crda for st-ericsson
 # CRDA
@@ -149,7 +150,7 @@ PRODUCT_COPY_FILES += \
         device/sony/montblanc-common/config/install_wlan.sh:system/bin/install_wlan.sh \
         device/sony/montblanc-common/config/ste_modem.sh:system/etc/ste_modem.sh \
         device/sony/montblanc-common/config/gps.conf:system/etc/gps.conf \
-	device/sony/montblanc-common/config/cacert.txt:system/etc/suplcert/cacert.txt
+        device/sony/montblanc-common/config/cacert.txt:system/etc/suplcert/cacert.txt
 
 # Garbage Collector type
 PRODUCT_TAGS += dalvik.gc.type-precise
